@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scisoors</title>
+  <link rel="stylesheet" href="./style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Tilt+Prism&display=swap" rel="stylesheet">
+</head>
+<body>
+  <p>ROCK PAPER SCISOORS</p>
+  
+  <button id="button" onclick="playGame('ROCK') "><img src="./rock-emoji.png"></button>
+
+  <button id="button" onclick="playGame('PAPER')"><img src="./paper-emoji.png"></button>
+
+  <button  id="button" onclick="playGame('SCISOORS')"><img src="./scissors-emoji.png"></button>
+  <p id="js_result">Result</p>
+  <p id="js_click">You_______ - _______ Computer</p>
+  <p id="js_score"></p>
+  <button id="reset"onclick="score.Wins=0;score.Loses=0;score.Tie=0; localStorage.removeItem('score'); updateScore()">Reset</button>
+ <button id="autoplay" onclick='autoplay()'>Autoplay</button>
+  <script src="./design1.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+}
+#button
+{
+width: 20%; 
+height: 20%;
+border-radius: 50%;
+border: 3px solid white;
+background-color: transparent;
+margin-right: 7%;
+display: inline-block;
+margin-left: 5%;
+cursor: pointer;
+
+}
+#button:hover
+{
+background-color: red;
+}
+img
+{
+width: 50%;
+height: 50%;
+border-radius: 60%;
+background-color: transparent;
+cursor: pointer;
+margin: auto;
+}
+p{
+color: beige;
+font-size:xx-large;
+font-family: 'Raleway',sans-serif;
+text-align: center;
+padding: 2%;
+font-weight: 900;
+
+
+}
+#reset
+{
+height: 50px;
+width: 70px;
+background-color:yellow;
+border-radius: 50%;
+cursor:pointer ;
+color: red;
+font-weight: bolder;
+border: 3px black;
+font-family: 'Raleway', sans-serif;
+}
+#reset:hover
+{
+background-color: white;
+color: black;
+}
+#move-icon
+{
+    height: 50px;
+    width: 50px;
+}
+#autoplay
+{
+  height: 50px;
+width: 70px;
+background-color:yellow;
+border-radius: 50%;
+cursor:pointer ;
+color: red;
+font-weight: bolder;
+border: 3px black;
+font-family: 'Raleway', sans-serif;
+}
